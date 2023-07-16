@@ -1,6 +1,6 @@
 /*
 for salesforceDev1
-       ----> Feature/add
+     SalesforceDev1
 */
 public with sharing class Calculator {
     public Calculator() {
@@ -15,4 +15,4 @@ public with sharing class Calculator {
     public integer sub(integer a,integer b){
         return a-b;
     }
-}
+} 
