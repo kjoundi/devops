@@ -1,3 +1,7 @@
+/*
+for salesforceDev1
+       ----> Feature/add
+*/
 public with sharing class Calculator {
     public Calculator() {
 
