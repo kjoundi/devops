@@ -1,6 +1,8 @@
 /*
 for salesforceDev1
------------------------> feature/sub
+
+        feature/sub
+
 */
 public with sharing class Calculator {
     public Calculator() {
@@ -9,6 +11,9 @@ public with sharing class Calculator {
     public integer add(integer a,integer b){
         return a+b;
     }
+    public integer add(integer a,integer b,integer c){
+        return a+b+c;
+    }
     public integer sub(integer a,integer b){
         return a-b;
     }
@@ -16,3 +21,4 @@ public with sharing class Calculator {
         return a-b-c;
     }
 }
+
